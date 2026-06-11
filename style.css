@@ -314,6 +314,7 @@ img { max-width: 100%; }
   width: 180px;
   height: 180px;
   border-radius: 50%;
+  overflow: hidden;          /* ← add this */
   background: linear-gradient(135deg, var(--accent2) 0%, var(--accent) 100%);
   display: flex;
   align-items: center;
@@ -324,7 +325,6 @@ img { max-width: 100%; }
   color: #0a0a0f;
   box-shadow: 0 0 60px rgba(124,106,255,0.4), 0 0 120px rgba(232,255,87,0.15);
 }
-
 .ring-svg {
   position: absolute;
   inset: 0;
